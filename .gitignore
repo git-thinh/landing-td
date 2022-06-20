@@ -1,0 +1,5 @@
+/obj
+/.vs
+/bin
+/nodejs/node_modules
+/node_modules
