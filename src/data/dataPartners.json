@@ -11,7 +11,7 @@
 	,
 	"partnertBottom":[
 		{
-			"icon" : "fa-solid fa-lightbulb",
+			"icon" : "bi bi-alarm",
 			"value" : 50,
 			"title" : "Finished Products"
 		},

@@ -30,6 +30,9 @@
 				activeKey: 0
 			}
 		},
+		created() {
+			document.body.style.paddingTop = '80px';
+		},
 		methods: {
 			selectNav: function(id) {
 				this.activeKey = id;
