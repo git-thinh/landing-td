@@ -1,0 +1,27 @@
+[
+	{
+		"icon" : "fa-solid fa-bicycle",
+		"title" : "Web Application",
+		"content" : "Web Application becomes mainstream thanks to the development of the Internet, where geographic barriers are broken."
+	},
+	{
+		"icon" : "fa-solid fa-globe",
+		"title" : "IOS/Android APP",
+		"content" : "Mobile Application provides access to your desired content on devices like smartphone."
+	},
+	{
+		"icon" : "fa-solid fa-earth-asia",
+		"title" : "Desktop Application",
+		"content" : "Specialized System has always been relevant for businesses' and organizations' activities."
+	},
+	{
+		"icon" : "fa-solid fa-chess-knight",
+		"title" : "Integrated Solution",
+		"content" : "We provide integrated solution to create a consistent and effective link within the business 's work."
+	},
+	{
+		"icon" : "fa-brands fa-galactic-republic",
+		"title" : "Consultation Service",
+		"content" : "We provide consultation and recommendations on IT solutions."
+	}
+]

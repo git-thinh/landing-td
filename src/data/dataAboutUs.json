@@ -1,0 +1,22 @@
+[
+	{
+		"name" : "Web Application",
+		"widthProgressBar" : 80
+	},
+	{
+		"name" : "Mobile Application",
+		"widthProgressBar" : 66
+	},
+	{
+		"name" : "Integrated Solution",
+		"widthProgressBar" : 70
+	},
+	{
+		"name" : "Consultation",
+		"widthProgressBar" : 90
+	},
+	{
+		"name" : "Product Marketing",
+		"widthProgressBar" : 80
+	}
+]
