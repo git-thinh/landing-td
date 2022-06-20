@@ -1,5 +1,5 @@
 <template>
-	<div class="section-contactUs" id="contactUs">
+	<div class="-contactUs" id="contactUs">
 		<div class="container">
 			<div class="contact-title text-center">
 				<h1>Contact Us</h1>

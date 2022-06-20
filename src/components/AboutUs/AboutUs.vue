@@ -1,5 +1,5 @@
 <template>
-	<div class="section-about" id="aboutUs" style="margin-top: 100px;">
+	<div class="-about" id="aboutUs" style="margin-top: 100px;">
 		<div class="container">
 			<div class="about-title d-flex flex-column justify-content-center text-center mb-5">
 				<h1>About Us</h1>

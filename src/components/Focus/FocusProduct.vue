@@ -1,6 +1,6 @@
 <template>
 	<div class="product-content" id="products" style="margin: 100px 0 50px;">
-		<div class="section-title d-flex my-5 flex-column justify-content-center align-items-center">
+		<div class="-title d-flex my-5 flex-column justify-content-center align-items-center">
 			<h2 class="fw-bold">Mainstream Products</h2>
 			<h6>We provide what you need.</h6>
 		</div>

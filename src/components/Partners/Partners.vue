@@ -1,5 +1,5 @@
 <template>
-	<div class="section-partners bg-light my-5" id="partners">
+	<div class="-partners bg-light my-5" id="partners">
 		<div class="partnert-title border-bottom py-4 text-center">
 			<h3>Our Loyal Customers</h3>
 		</div>
@@ -44,6 +44,6 @@
 <style>
 	.detail {
 		height: 400px;
-		background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url('../assets/kawasaki-ninja-h2r-6190254_1280.jpg') no-repeat center/cover;
+		background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url('@/components/Partners/kawasaki-ninja-h2r-6190254_1280.jpg') no-repeat center/cover;
 	}
 </style>

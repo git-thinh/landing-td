@@ -1,5 +1,5 @@
 <template>
-	<div class="section-subscribe d-flex align-items-center my-5">
+	<div class="-subscribe d-flex align-items-center my-5">
 		<div class="container">
 			<form action=""
 				class="form-subscribe row d-flex justify-content-center align-items-center bg-white p-1 text-center justify-content-lg-between py-5"
@@ -30,8 +30,8 @@
 </script>
 
 <style>
-	.section-subscribe{
+	.-subscribe{
 		height: 400px;
-		background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url('../assets/multistrada-4864742_1280.jpg') no-repeat center/cover;
+		background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url('@/components/Subscribe/multistrada-4864742_1280.jpg') no-repeat center/cover;
 	}
 </style>

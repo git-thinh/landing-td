@@ -1,5 +1,5 @@
 <template>
-	<div class="section-project my-5" id="projects">
+	<div class="-project my-5" id="projects">
 		<div class="project-title text-center mb-5">
 			<h1 class="my-5">Projects</h1>
 			<ul class="nav d-flex justify-content-center">
