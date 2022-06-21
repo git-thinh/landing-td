@@ -1,33 +1,26 @@
+<script setup>
+    import { Subscribe } from './Subscribe.js'
+</script>
+<script>
+    export default { mixins: [Subscribe] }
+</script>
+
 <template>
-	<div class="-subscribe d-flex align-items-center my-5">
+	<div :vue-com="name__" class="-subscribe d-flex align-items-center my-5">
 		<div class="container">
 			<form action=""
-				class="form-subscribe row d-flex justify-content-center align-items-center bg-white p-1 text-center justify-content-lg-between py-5"
-				style="height: 50%;">
-				<h6>Subscribe to get latest updates. Stay tuned!</h6>
-				<div class="form-group col-12 col-md-5 col-lg-4 mb-1">
-					<input type="text" placeholder="Name" class="p-1 w-100">
-					<span></span>
-				</div>
-				<div class="form-group col-12 col-md-5 col-lg-4 mb-1">
-					<input type="text" placeholder="Email" class="p-1 w-100">
-					<span></span>
-				</div>
-				<div class="form-group col-12 col-md-5 col-lg-2 mb-1">
-					<input type="checkbox" id="reCaptcha">
-					<label for="reCaptcha">reCaptcha</label>
-				</div>
-				<div class="form-group col-12 col-md-5 col-lg-2 mb-1">
-					<input type="submit" value="SUBSCRIBE" class="bg-black text-white w-100">
+				class="form-subscribe row d-flex justify-content-center align-items-center bg-white text-center justify-content-lg-between py-5 m-auto w-75"
+				style="height: 50%;" >
+				<h6 v-html="title"></h6>
+				<div class="form-group col-12 col-md-5 col-lg-3 p-1" v-for="(item,index) in items" :key="index">
+					<input :type="item.type" :placeholder="item.placeholder" :class="item.nameClassInput">
+					<label for="" v-html="item.label" :class="item.showLabel"></label>
 					<span></span>
 				</div>
 			</form>
 		</div>
 	</div>
 </template>
-
-<script>
-</script>
 
 <style>
 	.-subscribe{

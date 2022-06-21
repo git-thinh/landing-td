@@ -1,4 +1,5 @@
-[
+function getItems() {
+	return [
 	{
 		"name" : "Home",
 		"link" : "#carouselExampleCaptions"
@@ -28,3 +29,15 @@
 		"link" : "#contactUs"
 	}
 ]
+}
+const _items = getItems()
+
+
+
+
+const _logo = "https://abcsoft.vn/Content/assets/img/logo.png"
+
+export {
+	_logo,
+	_items
+};

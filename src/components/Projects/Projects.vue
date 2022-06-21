@@ -1,13 +1,22 @@
+<script setup>
+	import {
+		Projects
+	} from './Projects.js'
+</script>
+<script>
+	export default {
+		mixins: [Projects]
+	}
+</script>
+
 <template>
-	<div class="-project my-5" id="projects">
+	<div :vue-com="name__" class="-project my-5" id="projects">
 		<div class="project-title text-center mb-5">
-			<h1 class="my-5">Projects</h1>
+			<h1 class="my-5" v-html="title"></h1>
 			<ul class="nav d-flex justify-content-center">
-				<li class="nav-item"><a class="nav-link text-black active" href="#">All</a></li>
-				<li class="nav-item"><a class="nav-link text-black" href="#">WEB APP</a></li>
-				<li class="nav-item"><a class="nav-link text-black" href="#">MOBILE APP</a></li>
-				<li class="nav-item"><a class="nav-link text-black" href="#">INTEGRATE SYSTEM</a></li>
-				<li class="nav-item"><a class="nav-link text-black" href="#">OTHER</a></li>
+				<li class="nav-item" v-for="(item,index) in items" :key="index">
+					<a class="nav-link text-black active" href="#">{{ item.name }}</a>
+				</li>
 			</ul>
 		</div>
 		<div class="project-content">
@@ -46,9 +55,6 @@
 		</div>
 	</div>
 </template>
-
-<script>
-</script>
 
 <style>
 </style>

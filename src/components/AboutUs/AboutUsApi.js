@@ -43,7 +43,7 @@ const _content = `<h3 class="mb-4">ABCSOFT has been developing quality products 
 const _description = `Never stop learning and improving our procedure. That is the strength which allows us to meet the
 					increasing quality demands from customers.`
 
-const _title = `About Us11111`
+const _title = `About Us`
 
 export {
 	_title,
