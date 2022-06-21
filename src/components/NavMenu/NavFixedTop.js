@@ -9,13 +9,13 @@ export const NavFixedTop = {
 			name__: 'NavFixedTopApi',
 			items: [],
 			logo: "",
-			activeKey:0
+			activeKey: 0
 		}
 	},
 	created() {
 		this.items = _items;
 		this.logo = _logo;
-			document.body.style.paddingTop = '80px';
+		//document.body.style.paddingTop = '80px';
 	},
 	methods: {
 		selectNav: function(id) {

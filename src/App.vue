@@ -3,8 +3,6 @@
 </script>
 
 <template>
-	<NavFixedTop />
-
 	<Carousel />
 	<Slide />
 	<Feature />
